@@ -62,13 +62,13 @@ export const projects = [
     name: "Alparu Follow Cursor",
     details:
       "alparu follow your cursor",
-    url: "https://github.com/Titivoot/alparu-follow-cursor",
+    url: "github.com/Titivoot/alparu-follow-cursor",
   },
   {
     name: "Watering System With Solar Energy",
     details:
       "my vocational project",
-    url: "https://github.com/Titivoot/Watering-System-With-Solar-Energy",
+    url: "github.com/Titivoot/Watering-System-With-Solar-Energy",
   }
 ]
 

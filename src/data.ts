@@ -9,7 +9,7 @@ export const introData = {
   phone: "+66660313591",
   email: "tanlnwtitivoot@gmail.com",
   github: "titivoot",
-  linkedin: "manassarn",
+  linkedin: "",
   location: "Bangkok, Thailand",
   website: "titivoot.com",
 }
@@ -45,7 +45,7 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Senior Infrastructure Software Engineer",
+    position: "",
     company: "Siamdata Communication Co., Ltd.",
     url: "https://www.siamdata.co.th/th/",
     years: ["2020", "2020"],

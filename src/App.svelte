@@ -2,13 +2,13 @@
   import Tailwind from "./Tailwind.svelte"
   import Intro from "./Intro.svelte"
   import Work from "./Work.svelte"
-  import Kofi from "./Kofi.svelte"
   import HideToggle from "./HideToggle.svelte"
   import {
     educations,
     fullVersionLink,
     interests,
     introData,
+    personalInfo,
     projects,
     sourceLink,
     technologies,
@@ -20,12 +20,8 @@
   function toggleMode() {
     editMode = !editMode
   }
-</script>
 
-<!-- Remove this is you does not want Kofi widget on your site -->
-{#if introData.github == "narze"}
-  <Kofi name={introData.github} />
-{/if}
+</script>
 
 <Tailwind />
 
@@ -59,6 +55,41 @@
     : 'display-mode'}"
 >
   <Intro {...introData} />
+
+  <section class="py-4">
+    <HideToggle />
+    <img class="w-48 h-48 mx-auto rounded-full" src="https://static.titivoot.com/images/Pic.jpg" alt="resume pic">
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Personal Information
+    </h2>
+    <hr />
+    <ul class="text-left list-disc pl-8">
+      <li>
+        <HideToggle />
+        <span class="w-28 inline-block">Weight:</span>
+        <span>{personalInfo.weight} kg</span>
+      </li>
+      <li>
+        <HideToggle />
+        <span class="w-28 inline-block">Height:</span>
+        <span>{personalInfo.height} cm</span>
+      </li>
+      <li>
+        <HideToggle />
+        <span class="w-28 inline-block">Date of Birth:</span>
+        <span>{personalInfo.dateOfBirthString} ({new Date().getFullYear() - parseInt((personalInfo.dateOfBirthString).split(" ")[2])})</span>
+      </li>
+      <li>
+        <HideToggle />
+        <span class="w-28 inline-block">Nationality:</span>
+        <span>{personalInfo.nationality}</span>
+      </li>
+    </ul>
+  </section>
 
   <section>
     <HideToggle />

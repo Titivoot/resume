@@ -2,16 +2,22 @@ export const fullVersionLink = ""
 export const sourceLink = "https://github.com/titivoot/resume"
 export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-
+export const pic = ""
 export const introData = {
   name: "Titivoot Pangrit",
   nickname: "Tan",
   phone: "+66660313591",
   email: "tanlnwtitivoot@gmail.com",
   github: "titivoot",
-  linkedin: "",
-  location: "Bangkok, Thailand",
+  location: "145/6 Moo 3, Bang Phut, Pak Kret, Nonthaburi 11120",
   website: "titivoot.com",
+}
+
+export const personalInfo = {
+  weight: "120",
+  height: "181",
+  dateOfBirthString: "2 May 2002",
+  nationality: "Thai"
 }
 
 export const technologies = [

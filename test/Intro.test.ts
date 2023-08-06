@@ -15,7 +15,6 @@ describe("Intro Component", () => {
       phone: "+66 123 4567",
       email: "john_doe@example.com",
       github: "john_doe_gh",
-      linkedin: "john_doe_li",
       website: "example.com",
     })
 
@@ -24,7 +23,6 @@ describe("Intro Component", () => {
     expect(getByText("+66 123 4567")).toBeInTheDocument()
     expect(getByText("john_doe@example.com")).toBeInTheDocument()
     expect(getByText("github.com/john_doe_gh")).toBeInTheDocument()
-    expect(getByText("Linkedin")).toBeInTheDocument()
     expect(getByText("example.com")).toBeInTheDocument()
   })
 })

@@ -58,7 +58,7 @@
 
   <section class="py-4">
     <HideToggle />
-    <img class="w-48 h-48 mx-auto rounded-full" src="https://static.titivoot.com/images/Pic.jpg" alt="resume pic">
+    <img class="w-48 h-48 mx-auto rounded-full" src="images/Pic.jpg" alt="resume pic">
   </section>
 
   <section>

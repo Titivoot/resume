@@ -54,7 +54,7 @@ export const workExperiences = [
     position: "",
     company: "Siamdata Communication Co., Ltd.",
     url: "https://www.siamdata.co.th/th/",
-    years: ["2020", "2020"],
+    years: ["May 2020", "Sep 2020"],
     details: [
       "installed new system for client (window server, debian, centos, ubuntu).",
       "Repair and upgrade computer equipment.",

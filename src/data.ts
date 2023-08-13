@@ -9,7 +9,7 @@ export const introData = {
   phone: "+66660313591",
   email: "tanlnwtitivoot@gmail.com",
   github: "titivoot",
-  location: "133/6 Moo 6, Phrommanee, Mueang Nakhon Nayok, Nakhon Nayok 26000", // 145/6 Moo 3, Bang Phut, Pak Kret, Nonthaburi 11120
+  location: "133 Moo 6, Phrommanee, Mueang Nakhon Nayok, Nakhon Nayok 26000", // 145/6 Moo 3, Bang Phut, Pak Kret, Nonthaburi 11120
   website: "titivoot.com",
 }
 
